@@ -1,0 +1,1 @@
+web: yarn serve dist -p 8000
