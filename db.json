@@ -1,0 +1,14 @@
+{
+  "pages": [
+    { "name": "PageA", "isGroup": false },
+    { "name": "PageB", "isGroup": false },
+    {
+      "name": "CategoryA",
+      "isGroup": true,
+      "children": [
+        { "name": "PageC", "isGroup": false },
+        { "name": "PageD", "isGroup": false }
+      ]
+    }
+  ]
+}
