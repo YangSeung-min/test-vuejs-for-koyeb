@@ -18,10 +18,10 @@
 <script>
 export default {
   data: () => ({ drawer: null }),
-}
+};
 </script>
 <script setup>
-import DefaultBar from './AppBar.vue'
-import DefaultView from './View.vue'
-import NavDrawer from './NavDrawer.vue'
+import DefaultBar from './AppBar.vue';
+import DefaultView from './View.vue';
+import NavDrawer from './NavDrawer.vue';
 </script>

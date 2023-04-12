@@ -1,6 +1,3 @@
-<template>
-  PageA
-</template>
+<template>PageA</template>
 
-<script setup>
-</script>
+<script setup></script>

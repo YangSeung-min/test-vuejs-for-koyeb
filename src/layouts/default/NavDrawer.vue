@@ -66,10 +66,6 @@
             :title="title"
             :prepend-icon="icon"></v-list-item>
         </v-list-group>
-
-
-
-
       </v-list>
     </v-card>
   </v-navigation-drawer>
@@ -80,12 +76,6 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useAppStore } from '@/store/app';
 import { storeToRefs } from 'pinia';
-
-// menu store
-import { useMenusStore } from '@/store/menus';
-const menusStore = useMenusStore();
-const { menus } = storeToRefs(menusStore);
-console.log('menus : ', menus.value);
 
 const router = useRouter();
 
